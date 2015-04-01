@@ -1,0 +1,77 @@
+html, body {
+  height: 100%%;
+}
+html {
+  border: 10px solid #adadad;
+}
+body {
+  border: 1px solid #adadad;
+  padding: 50px;
+
+  background-image: url("watermark.png"), url("watermark.png");
+  background-repeat: no-repeat;
+  background-position: top center,right bottom;
+  background-position-y: -150%%, 170%%;
+  background-position-x: 70%%, 130%%;
+}
+
+#ribbon {
+  position: absolute;
+  top: 1px;
+  text-align: center;
+}
+
+#ribbon p {
+  color: #3dbba6;
+  font-size: 2em;
+}
+
+#hy-logo {
+  position: absolute;
+  margin-left: 10px;
+  top: 100px;
+}
+#logo {
+  position: absolute;
+  margin-left: 10px;
+  bottom: 75px;
+}
+
+main {
+  position: absolute;
+  left: 450px;
+  top: 85px;
+  width: 500px;
+}
+.date {
+  font-size: 0.8em;
+}
+body {
+font-family: 'Open Sans';
+font-weight: 300;
+color: #333333;
+}
+.signature {
+  font-family: 'La Belle Aurore', sans;
+  font-size: 1.9em;
+  border-bottom: 1px dotted #acacac;
+  width: 250px;
+  line-height: 12px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+.name, .title {
+   font-size: 0.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#verify {
+  font-size: 0.8em;
+  position: absolute;
+  right: 30px;
+  padding: 0;
+  margin: 0;
+  bottom: 75px;
+  width: 300px;
+}

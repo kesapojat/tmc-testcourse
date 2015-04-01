@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="file://%{root}/">
+    <link href="http://fonts.googleapis.com/css?family=Arvo|Alex+Brush|Open+Sans:300|La+Belle+Aurore" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <img width="280" height="190" id="logo" src="mooc-logo-white.png">
+    <img width="280" height="170" id="hy-logo" src="hy-logo-white.png">
+    <main>
+      <p class="date">
+        <script>
+          document.write(new Date(%{time}).toLocaleString('en-US', {year: 'numeric', month: 'long', day: 'numeric', formatMatcher: 'basic'}))
+        </script>
+      </p>
+      <h1>%{name}</h1>
+      <p>has successfully completed the</p>
+      <h2>%{course}</h2>
+      <p>course offered by the University of Helsinki Department of Computer Science. Course consisted of %{weeks} weeks and %{exercises} exercises. Total score of the user was %{points} / %{available_points}.</p>
+      <p class="signature">Matti Luukkainen</p>
+      <p class="name">Matti Luukkainen</p>
+      <p class="title">University lecturer</p>
+    </main>
+    <p id="verify">
+      This certificate does not verify the identity of the participant nor that the participant is a student of the University of Helsinki.
+    </p>
+  </body>
+</html>
